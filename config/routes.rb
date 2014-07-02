@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  constraints subdomain: 'alpha' do
+  # constraints subdomain: 'alpha' do
     get '', to: "pages#index"
     get "about", to: "pages#about"
     get "products", to: "pages#products"
@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     get "shop", to: "pages#shop"
     get "connect", to: "pages#connect"
     root 'pages#index'
-  end
+  # end
 
   # root 'pages#index'
   # get '', to: 'pages#index', constraints: {subdomain: /alpha/}
