@@ -21,3 +21,27 @@
 
 en:
   hello: "Hello world"
+  pages:
+    index:
+      slider:
+        first_title: "Introducing the Heekari Switch"
+        first_subtitle: "Finally control your lighting with easy installation, wireless control, dimming, and more."
+        first_button: "Learn more"
+        second_title: "15 Second Installation"
+        second_subtitle: "Just screw it in and you are done. No wires, no hastle."
+        second_button: "Plan your Installation"
+        third_title: "100% Compatible"
+        third_subtitle: "Keep using the lightbulbs you buy normally."
+        third_button: "Calculate Savings"
+        fourth_title: "Dim & Control from your Phone"
+        fourth_subtitle: "Dim your lights from your phone to set the mood."
+        fourth_button: "Learn more"
+      heekari_switch:
+        first_title: "Simple Installation"
+        first_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
+        second_title: "100% Compatibility"
+        second_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
+        third_title: "Intuitive Control"
+        third_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
+        fourth_title: "Intelligent Response"
+        fourth_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
