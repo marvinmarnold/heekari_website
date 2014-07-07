@@ -586,7 +586,7 @@ h3.heading-progress span{
 
 }
 #hightlight-sec{
-    background:url('../img/highlight-bg1.jpg')no-repeat center scroll;
+    background:url(image-path('img/highlight-bg1.jpg'))no-repeat center scroll;
 
 }
 
@@ -595,7 +595,7 @@ h3.heading-progress span{
     color:#fff;
 }
 #hightlight-sec-2{
-    background:url('../img/highlight-bg2.jpg')no-repeat center scroll;
+    background:url(image-path('img/highlight-bg2.jpg'))no-repeat center scroll;
 
 }
 #hightlight-sec-2 h1{

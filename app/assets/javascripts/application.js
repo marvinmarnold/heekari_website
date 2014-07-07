@@ -17,5 +17,6 @@
 //= require js/bootstrap-hover-dropdown.min
 //= require js/jquery.flexslider-min
 //= require js/jquery.mixitup.min
+//= require js/app
 //= require turbolinks
 //= require_tree .
