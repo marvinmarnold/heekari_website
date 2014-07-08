@@ -11,6 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require bootstrap/css/bootstrap-theme
  *= require bootstrap/css/bootstrap.min
  *= require icons/css/ionicons
  *= require css/style

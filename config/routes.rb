@@ -4,6 +4,8 @@ Rails.application.routes.draw do
     get '', to: "pages#index"
     get "about", to: "pages#about"
     get "products", to: "pages#products"
+    get "os", to: "pages#os"
+    get "developer", to: "pages#developer"
     get "team", to: "pages#team"
     get "save", to: "pages#save"
     get "shop", to: "pages#shop"

@@ -5,10 +5,7 @@ class PagesController < ApplicationController
   def about
   end
 
-  def products
-  end
-
-  def team
+  def ecosystem
   end
 
   def save

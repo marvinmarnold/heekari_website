@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse navbar-togglenavbar-fixed-top" role="navigation">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -14,22 +14,24 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="active dropdown">
                     <%= link_to "#", class: "dropdown-toggle js-activated", data: {toggle: "dropdown"} do %>
-                        About <i class="ion-ios7-arrow-down"></i>
+                        <%= t("navbar.about")%> <i class="ion-ios7-arrow-down"></i>
                     <% end %>
                     <ul class="dropdown-menu">
-                        <li><%= link_to "Team", team_path %></li>
-                        <li><%= link_to "Products", products_path %></li>
+                        <li><%= link_to t("navbar.about_company"), about_path %></li>
+                        <li><%= link_to t("navbar.about_products"), products_path %></li>
+                        <li><%= link_to t("navbar.about_os"), os_path %></li>
+                        <li><%= link_to t("navbar.about_developers"), developer_path %></li>
                     </ul>
                 </li>
                 <li>
-                    <%= link_to "Save", save_path %>
+                    <%= link_to t("navbar.save"), save_path %>
                 </li>
                 <li>
-                    <%= link_to "Connect", connect_path %>
+                    <%= link_to t("navbar.connect"), connect_path %>
                 </li>
 
                 <li>
-                    <%= link_to "Shop", shop_path %>
+                    <%= link_to t("navbar.shop"), shop_path %>
                 </li>
 
             </ul>
