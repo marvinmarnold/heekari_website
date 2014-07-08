@@ -5,7 +5,13 @@ class PagesController < ApplicationController
   def about
   end
 
-  def ecosystem
+  def products
+  end
+
+  def os
+  end
+
+  def developer
   end
 
   def save
@@ -15,5 +21,8 @@ class PagesController < ApplicationController
   end
 
   def connect
+  end
+
+  def legal
   end
 end

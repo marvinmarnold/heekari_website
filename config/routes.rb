@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     get "save", to: "pages#save"
     get "shop", to: "pages#shop"
     get "connect", to: "pages#connect"
+    get "legal", to: "pages#legal"
     root 'pages#index'
   # end
 

@@ -25,10 +25,10 @@
                 <div class="footer-column">
                     <h3><%= t "footer.support" %></h3>
                         <ul class="list-unstyled post-list">
-                        <li><a href="#" class="hover-color"><%= t "footer.support_planning" %></a></li>
-                        <li><a href="#" class="hover-color"><%= t "footer.support_savings" %></a></li>
-                        <li><a href="#" class="hover-color"><%= t "footer.support_privacy" %></a></li>
-                        <li><a href="#" class="hover-color"><%= t "footer.support_legal" %></a></li>
+                        <li><%= link_to t("footer.support_planning"), save_path, class: "hover-color" %></li>
+                        <li><%= link_to t("footer.support_savings"), save_path, class: "hover-color" %></li>
+                        <li><%= link_to t("footer.support_privacy"), legal_path, class: "hover-color" %></li>
+                        <li><%= link_to t("footer.support_legal"), legal_path, class: "hover-color" %></li>
                     </ul>
                 </div><!--footer columns end-->
             </div>
