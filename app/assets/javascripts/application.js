@@ -19,4 +19,5 @@
 //= require js/jquery.mixitup.min
 //= require js/app
 //= require turbolinks
+//= require google-analytics-turbolinks
 //= require_tree .
