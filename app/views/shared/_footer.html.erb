@@ -5,7 +5,7 @@
                 <div class="footer-column">
                     <h3><%= t "footer.about_us" %></h3>
                     <p class="margin-btm20">
-                        Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scriptaset patrioque scribentur, at pro fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur.
+                        <%= t "footer.about_us_text" %>
                     </p>
 
                 </div><!--footer columns end-->
@@ -36,8 +36,8 @@
                 <div class="footer-column">
                     <h3><%= t "footer.contact_us" %></h3>
                     <ul class="list-unstyled contact-list margin-btm20">
-                        <li><i class="ion-ios7-email"></i> <strong><%= t "footer.contact_us_email" %></strong><%= t "footer.contact_us_email_address" %></li>
-                        <li><i class="ion-ios7-world"></i> <strong><%= t "footer.contact_us_website" %>:</strong><%= t "footer.contact_us_website_url" %></li>
+                        <li><i class="ion-ios7-email"></i> <strong><%= t "footer.contact_us_email" %></strong><%= mail_to t("footer.contact_us_email_address") %></li>
+                        <li><i class="ion-ios7-world"></i> <strong><%= t "footer.contact_us_website" %>:</strong><%= link_to t("footer.contact_us_website_url") %></li>
                     </ul>
                     <ul class="list-unstyled list-inline social">
                         <li><a href="http://www.facebook.com/heekarinow"><i class="ion-social-facebook-outline"  data-toggle="tooltip" data-placement="top" title="" data-original-title="Like On Facebook"></i></a></li>

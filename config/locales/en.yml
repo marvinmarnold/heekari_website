@@ -24,7 +24,7 @@ en:
         index:
             slider:
                 first_title: "Introducing the Heekari Switch"
-                first_subtitle: "Finally control your lighting with easy installation, wireless control, dimming, and more."
+                first_subtitle: "Forget to turn off the lights off? With Heekari, you’ll forget you never turned them on."
                 first_button: "Learn more"
                 second_title: "15 Second Installation"
                 second_subtitle: "Just screw it in and you are done. No wires, no hastle."
@@ -66,6 +66,7 @@ en:
                 title: "Collaboration"
     footer:
         about_us: "About Us"
+        about_us_text: "Forget to turn off the lights off? With Heekari, you’ll forget you never turned them on.  "
         ecosystem: "Heekari Ecosystem"
         support: "Other"
         support_planning: "Installation planner"
