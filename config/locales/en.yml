@@ -24,7 +24,7 @@ en:
         index:
             slider:
                 first_title: "Introducing the Heekari Switch"
-                first_subtitle: "Forget to turn off the lights off? With Heekari, you’ll forget you never turned them on."
+                first_subtitle: "Forget to turn off the lights off? With Heekari, you’ll forget you never turned them on too."
                 first_button: "Learn more"
                 second_title: "15 Second Installation"
                 second_subtitle: "Just screw it in and you are done. No wires, no hastle."
@@ -38,14 +38,16 @@ en:
             heekari_switch:
                 title: "The Heekari Switch"
                 subtitle: "Forget to turn the lights off? With Heekari, you’ll start forgetting to turn them on too."
-                first_title: "Simple Installation"
-                first_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
-                second_title: "100% Compatibility"
-                second_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
-                third_title: "Intuitive Control"
-                third_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
-                fourth_title: "Intelligent Response"
-                fourth_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
+                first_title: "Learns from you"
+                first_subtitle: "Think Nest for your lights. Always want the lights dim at night? That’s easy. Always want the lights to dim when that special somebody comes over? We got that covered too."
+                second_title: "Simple installation"
+                second_subtitle: "No wires, nothing to plug into the router, no replacement necessary! Just screw in and Heekari is ready to go. Save time and money."
+                third_title: "100% Compatible"
+                third_subtitle: "Heekari works with any standard dimmable light. We are currently researching technology that will allow us to interface with industrial installations too."
+                fourth_title: "Don't change your behavior"
+                fourth_subtitle: "Like our competitors, we give you the option to control your lights from your phone. What makes us unique is that we don’t require you to. Heekari learns from you even when you use the physical switch you are used to."
+                fifth_title: "Save energy"
+                fifth_subtitle: "Wasting lighting is bad for the environment and bad for your energy bill. Heekari optimizes your lighting experience so you don’t have to. "
             signup:
                 title: "Stay Connected"
                 subtitle: "We'll let you know when we start accepting orders & keep you updated on the most important information. We promise never to spam or release your information to any third party."
