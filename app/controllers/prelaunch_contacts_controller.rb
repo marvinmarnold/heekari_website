@@ -1,0 +1,2 @@
+class PrelaunchContactsController < ApplicationController
+end
