@@ -10,7 +10,7 @@ $(document).on "page:change", ->
 #====flex main slider====
 $(document).on "page:change", ->
     $(".slider-main,.testimonials").flexslider
-      slideshowSpeed: 3000
+      slideshowSpeed: 5500
       directionNav: false
       animation: "fade"
 
@@ -27,7 +27,7 @@ $(document).on "page:change", ->
 $(document).on "page:change", ->
   $(".flexslider").flexslider
     directionNav: false
-    slideshowSpeed: 3000
+    slideshowSpeed: 6000
     animation: "fade"
 
   return

@@ -37,6 +37,7 @@ en:
                 fourth_button: "Learn more"
             heekari_switch:
                 title: "The Heekari Switch"
+                subtitle: "Forget to turn the lights off? With Heekari, you’ll start forgetting to turn them on too."
                 first_title: "Simple Installation"
                 first_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
                 second_title: "100% Compatibility"
@@ -45,6 +46,9 @@ en:
                 third_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
                 fourth_title: "Intelligent Response"
                 fourth_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
+            signup:
+                title: "Stay Connected"
+                subtitle: "We'll let you know when we start accepting orders & keep you updated on the most important information. We promise never to spam or release your information to any third party."
             ecosystem:
                 title: "Experience the Heekari Ecosystem"
                 subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
@@ -64,9 +68,13 @@ en:
                 third_person: "Someone Else"
             collaboration:
                 title: "Collaboration"
+    prelaunch_contacts:
+        form:
+            submit: "Sign up!"
+            placeholder: "Your email address"
     footer:
         about_us: "About Us"
-        about_us_text: "Forget to turn off the lights off? With Heekari, you’ll forget you never turned them on.  "
+        about_us_text: "Forget to turn the lights off? With Heekari, you’ll start forgetting to turn them on too."
         ecosystem: "Heekari Ecosystem"
         support: "Other"
         support_planning: "Installation planner"
