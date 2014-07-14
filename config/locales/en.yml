@@ -21,6 +21,13 @@
 
 en:
     pages:
+        about:
+            title: "About Us"
+            subtitle: "Heekari"
+            overview: |+
+                        h4. Sorry to disappoint, but Heekari wasn’t founded on ground breaking values or a killer mission statement. Put simply, we believe technology should simply work. Whether in the board room or bed room, Heekari is committed to making products that do what you expect.
+
+                        h4. We’re so confident you will be satisfied, we offer a lifetime guarantee on all our products. But no matter how hard we try, we know we can always do better. Get in touch and let us know how you like your new Heekari Switch. If you don’t have one…
         index:
             slider:
                 first_title: "Introducing the Heekari Switch"
@@ -48,6 +55,8 @@ en:
                 fourth_subtitle: "Like our competitors, we give you the option to control your lights from your phone. What makes us unique is that we don’t require you to. Heekari learns from you even when you use the physical switch you are used to."
                 fifth_title: "Save energy"
                 fifth_subtitle: "Wasting lighting is bad for the environment and bad for your energy bill. Heekari optimizes your lighting experience so you don’t have to. "
+                sixth_title: Lifetime guarantee
+                sixth_subtitle: We back all our products with a lifetime guarantee – even if it’s your fault.
             signup:
                 title: "Stay Connected"
                 subtitle: "We'll let you know when we start accepting orders & keep you updated on the most important information. We promise never to spam or release your information to any third party."
@@ -70,6 +79,10 @@ en:
                 third_person: "Someone Else"
             collaboration:
                 title: "Collaboration"
+        os:
+            title: "Heekari O.S."
+        products:
+            title: "Products"
     prelaunch_contacts:
         form:
             submit: "Sign up!"

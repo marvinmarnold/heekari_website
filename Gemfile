@@ -40,5 +40,6 @@ gem 'rails_12factor', group: :production #static assets on heroku
 gem 'unicorn'
 gem 'google-analytics-turbolinks'
 gem 'pry'
+gem 'textilize'
 
 # gem 'flexslider'

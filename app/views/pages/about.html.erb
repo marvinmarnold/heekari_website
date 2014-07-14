@@ -2,7 +2,7 @@
  <section id="page-tree">
     <div class="container">
         <div class="row">
-            <h1>About us</h1>
+            <h1><%= t "pages.about.title" %></h1>
         </div><!--row-->
     </div><!--container-->
 </section><!--page-tree-->
@@ -11,31 +11,12 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <div class="flexslider">
-                <ul class="slides">
-                    <li>
-                        <img src="img/img-1.jpg" class="img-responsive" alt="">
-                    </li>
-                    <li>
-                        <img src="img/img-4.jpg" class="img-responsive" alt="">
-                    </li>
-                    <li>
-                        <img src="img/img-3.jpg" class="img-responsive" alt="">
-                    </li>
-                </ul>
-            </div><!--flex slider-->
+        <%= image_tag "HeekariLight_400.png", class: "img-responsive", alt: "Heekari" %>
         </div>
         <div class="col-md-6">
-            <h3>About Company</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisi ac mi malesuada vestibulum. Phasellus tempor nunc eleifend cursus molestie. Mauris lectus arcu, pellentesque at sodales sit amet, condimentum id nunc.
-            </p>
-            <p>
-                Donec ornare mattis suscipit. Praesent fermentum accumsan vulputate. Sed velit nulla, sagittis non erat id, dictum vestibulum ligula. Maecenas sed enim sem. Etiam scelerisque gravida purus nec interdum. Phasellus venenatis ligula in faucibus consequat. Aliquam dictum nulla eu varius porta. Maecenas congue dui id posuere fermentum. Morbi at iaculis nibh, at semper augue.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisi ac mi malesuada vestibulum. Phasellus tempor nunc eleifend cursus molestie. Mauris lectus arcu, pellentesque at sodales sit amet, condimentum id nunc.
-            </p>
+            <h3><%= t "pages.about.subtitle" %></h3>
+            <%= textilize t("pages.about.overview") %>
+            <%= link_to "Order Heekari", shop_path, class: "btn btn-lg btn-success" %>
         </div>
     </div>
     <div class="divied-40"></div>
@@ -48,7 +29,6 @@
                 <h3>Meet Our Team</h3>
             </div>
                 <%= render 'pages/about/hiroshi' %>
-                <%= render 'pages/about/marvin' %>
                 <%= render 'pages/about/marvin' %>
         </div>
     </div><!--container-->
