@@ -13,7 +13,9 @@ Rails.application.routes.draw do
     get "legal", to: "pages#legal"
     root 'pages#index'
   # end
-
+  post 'prelaunch_contacts', to: "prelaunch_contacts#create"
+  get 'prelaunch_contacts/new', to: "prelaunch_contacts#new"
+  get 'prelaunch_contacts', to: "prelaunch_contacts#index"
   # root 'pages#index'
   # get '', to: 'pages#index', constraints: {subdomain: /alpha/}
   # The priority is based upon order of creation: first created -> highest priority.

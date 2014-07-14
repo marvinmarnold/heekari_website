@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def index
+    @prelaunch_contact = PrelaunchContact.new
   end
 
   def about

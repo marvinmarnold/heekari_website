@@ -1,15 +1,16 @@
-<div class="sidebar-box">
-    <form>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="input-group">
-                    <label class="sr-only" for="subscribe-email">Email address</label>
-                    <%= tag "input", placeholder: t("prelaunch_contacts.form.placeholder"), type: "text", class: "form-control", id: "email" %>
-                    <span class="input-group-btn">
-                        <button type="submit" class="btn btn-dark"><%= t "prelaunch_contacts.form.submit" %></button>
-                    </span>
+
+    <div class="sidebar-box">
+        <%= form_for @prelaunch_contact do |f| %>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="input-group">
+                        <label class="sr-only" for="subscribe-email">Email address</label>
+                        <%= f.text_field :email, placeholder: t("prelaunch_contacts.form.placeholder"), class: "form-control" %>
+                        <span class="input-group-btn">
+                            <%= f.submit t("prelaunch_contacts.form.submit" ), class: "btn btn-dark" %>
+                        </span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </form>
-</div>
+        <% end %>
+    </div>

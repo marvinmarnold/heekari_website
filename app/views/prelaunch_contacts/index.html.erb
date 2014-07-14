@@ -1,0 +1,7 @@
+<%= render 'pages/index/banner' %>
+<div class="container">
+  <% @prelaunch_contacts.each do |c| %>
+      <h1><%= c.email %></h1>
+    <% end %>
+
+  </div>

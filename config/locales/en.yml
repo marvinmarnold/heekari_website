@@ -28,6 +28,8 @@ en:
                         h4. Sorry to disappoint, but Heekari wasn’t founded on ground breaking values or a killer mission statement. Put simply, we believe technology should simply work. Whether in the board room or bed room, Heekari is committed to making products that do what you expect.
 
                         h4. We’re so confident you will be satisfied, we offer a lifetime guarantee on all our products. But no matter how hard we try, we know we can always do better. Get in touch and let us know how you like your new Heekari Switch. If you don’t have one…
+        developer:
+            title: "Developers"
         index:
             slider:
                 first_title: "Introducing the Heekari Switch"
@@ -61,9 +63,9 @@ en:
                 title: "Stay Connected"
                 subtitle: "We'll let you know when we start accepting orders & keep you updated on the most important information. We promise never to spam or release your information to any third party."
             ecosystem:
-                title: "Experience the Heekari Ecosystem"
+                title: "The Full Heekari Family"
                 subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
-                first_title: "Product Family"
+                first_title: "Products"
                 first_subtitle: "Pellentesque in tempor metus. Vestibulum sit amet elit justo, vitae gravida erat. Nam hendrerit leo non enim consectetur tristique eleifend nec turpis. Nulla fermentum, ante dapibus"
                 second_title: "O.S."
                 second_subtitle: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. probably haven't heard of them accusamus labore sustainable VHS."
