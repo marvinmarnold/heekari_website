@@ -85,6 +85,9 @@ en:
             title: "Heekari O.S."
         products:
             title: "Products"
+        save:
+            title: "Plan your installation"
+            subtitle: "Tell us about your home and we'll tell you how can save by switching to Heekari"
     prelaunch_contacts:
         form:
             submit: "Sign up!"

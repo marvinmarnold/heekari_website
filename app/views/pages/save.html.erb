@@ -1,7 +1,7 @@
 <section id="page-tree">
   <div class="container">
       <div class="row">
-        <h1>Plan your Installation</h1>
+        <h1><%= t "pages.save.title" %></h1>
       </div><!--row-->
   </div><!--container-->
 </section><!--page-tree-->
@@ -9,25 +9,44 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center margin-btm40">
-            <h1>Full width page</h1>
+            <h1><%= t "pages.save.subtitle" %></h1>
             <h2 class="subtitle">
-                <i class="ion-android-arrow-up-right"></i>
+                <i class="ion-android-lightbulb"></i>
             </h2>
         </div>
-        <div class="col-md-12">
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-            </p>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-            </p>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-            </p>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-            </p>
+
+        <h2>What type of building?</h2>
+        <div class="col-md-3">
+          <%= image_tag "house.png", class: "img-responsive" %>
         </div>
+        <div class="col-md-3">
+          <%= image_tag "apartment.png", class: "img-responsive" %>
+        </div>
+        <div class="col-md-3">
+          <%= image_tag "college.png", class: "img-responsive" %>
+        </div>
+        <div class="col-md-3">
+          <%= image_tag "business_woman.png", class: "img-responsive" %>
+        </div>
+
+        <h2>What type of lights?</h2>
+        <h2>What type of lights?</h2>
+
+        <h2>What type of lights?</h2>
+        <div class="col-md-3">
+          <%= image_tag "LED.png", class: "img-responsive" %>
+        </div>
+        <div class="col-md-3">
+          <%= image_tag "cfl.png", class: "img-responsive" %>
+        </div>
+        <div class="col-md-3">
+          <%= image_tag "halogen.png", class: "img-responsive" %>
+        </div>
+        <div class="col-md-3">
+          <%= image_tag "incandescent.png", class: "img-responsive" %>
+        </div>
+
+
         <div class="divied-60"></div>
     </div>
 </div><!--full width inner page-->

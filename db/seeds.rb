@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+LightType.create!(name: "LED")
+LightType.create!(name: "Incandescent")
+LightType.create!(name: "CFL")
+
+HomeType.create!(name: "House")
+HomeType.create!(name: "Apartment")
+HomeType.create!(name: "Dorm Room")
+HomeType.create!(name: "Office")

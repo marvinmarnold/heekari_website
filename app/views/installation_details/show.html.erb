@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Home type:</strong>
+  <%= @installation_detail.home_type %>
+</p>
+
+<p>
+  <strong>Num rooms:</strong>
+  <%= @installation_detail.num_rooms %>
+</p>
+
+<p>
+  <strong>Num ppl:</strong>
+  <%= @installation_detail.num_ppl %>
+</p>
+
+<p>
+  <strong>Light type:</strong>
+  <%= @installation_detail.light_type %>
+</p>
+
+<%= link_to 'Edit', edit_installation_detail_path(@installation_detail) %> |
+<%= link_to 'Back', installation_details_path %>

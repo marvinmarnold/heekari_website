@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  home_type_id: 
+  num_rooms: 
+  num_ppl: 
+  light_type_id: 
+
+two:
+  home_type_id: 
+  num_rooms: 
+  num_ppl: 
+  light_type_id: 

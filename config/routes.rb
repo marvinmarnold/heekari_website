@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :installation_details
+
   # constraints subdomain: 'alpha' do
     get '', to: "pages#index"
     get "about", to: "pages#about"
