@@ -1,31 +1,49 @@
-<h1>Listing installation_details</h1>
+ <section id="page-tree">
+    <div class="container">
+        <div class="row">
+            <h1><%= t "installation_details.show.title" %></h1>
+        </div><!--row-->
+    </div><!--container-->
+</section><!--page-tree-->
 
-<table>
-  <thead>
-    <tr>
-      <th>Home type</th>
-      <th>Num rooms</th>
-      <th>Num ppl</th>
-      <th>Light type</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="divied-60"></div>
+<div class="container">
+    <div class="row">
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="col-sm-3"></th>
+            <th class="col-sm-3"><h2><i class="ion-earth"></i> <%= t "installation_details.show.environment" %></h2></th>
+            <th class="col-sm-3"><h2><i class="ion-clock"></i> <%= t "installation_details.show.time" %></h2></th>
+            <th class="col-sm-3"><h2><i class="ion-ios7-cart-outline"></i> <%= t "installation_details.show.money" %></h2></th>
+          </tr>
+        </thead>
 
-  <tbody>
-    <% @installation_details.each do |installation_detail| %>
-      <tr>
-        <td><%= installation_detail.home_type %></td>
-        <td><%= installation_detail.num_rooms %></td>
-        <td><%= installation_detail.num_ppl %></td>
-        <td><%= installation_detail.light_type %></td>
-        <td><%= link_to 'Show', installation_detail %></td>
-        <td><%= link_to 'Edit', edit_installation_detail_path(installation_detail) %></td>
-        <td><%= link_to 'Destroy', installation_detail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+        <tbody>
 
-<br>
+            <tr class="installation-table-row">
+              <td><h2><%= t "installation_details.show.installation" %></h2></td>
+              <td><h1><%= @installation_detail.env_ins %></h1></td>
+              <td><h1><%= @installation_detail.tim_ins %></h1></td>
+              <td><h1><%= @installation_detail.mon_ins %></h1></td>
+            </tr>
 
-<%= link_to 'New Installation detail', new_installation_detail_path %>
+            <tr class="installation-table-row">
+              <td><h2><%= t "installation_details.show.maintenance" %></h2></td>
+              <td><h1><%= @installation_detail.env_mai %></h1></td>
+              <td><h1><%= @installation_detail.tim_mai %></h1></td>
+              <td><h1><%= @installation_detail.mon_mai %></h1></td>
+            </tr>
+
+            <tr class="installation-table-row success">
+              <td><h2><%= t "installation_details.show.lifetime" %></h2></td>
+              <td><h1><%= @installation_detail.env_lif %></h1></td>
+              <td><h1><%= @installation_detail.tim_lif %></h1></td>
+              <td><h1><%= @installation_detail.mon_lif %></h1></td>
+            </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <div class="divied-40"></div>
+</div>

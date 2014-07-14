@@ -20,6 +20,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+    installation_details:
+        show:
+            title: "Predicted Savings"
+            installation: "Installation"
+            maintenance: "Repairs & Maintenance"
+            lifetime: "Lifetime"
+            environment: "Environment"
+            time: "Time"
+            money: "Money"
     pages:
         about:
             title: "About Us"

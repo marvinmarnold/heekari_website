@@ -4,7 +4,7 @@ class InstallationDetailsController < ApplicationController
   # GET /installation_details
   # GET /installation_details.json
   def index
-    @installation_details = InstallationDetail.all
+    @installation_detail = InstallationDetail.new
   end
 
   # GET /installation_details/1
