@@ -1,7 +1,7 @@
 <section id="page-tree">
     <div class="container">
         <div class="row">
-            <h1>Contact us</h1>
+            <h1><%= t "pages.connect.title" %></h1>
         </div><!--row-->
     </div><!--container-->
 </section><!--page-tree-->
@@ -9,9 +9,9 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <h3>Get in touch</h3>
+            <h3><%= t "pages.connect.subtitle" %></h3>
             <p class="margin-btm40">
-                Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scriptaset patrioque scribentur, at pro fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur.
+                <%= t "pages.connect.message_text" %>
             </p>
             <div class="form-box margin-btm40">
                 <form>
@@ -48,23 +48,18 @@
             </div>
         </div>
         <div class="col-md-4">
-            <h3>Contact info</h3>
+            <h3><%= t("pages.connect.alternative_title") %></h3>
             <p class="margin-btm20">
-                Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scriptaset patrioque scribentur, at pro fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur.
+                <%= t("pages.connect.alternative_subtitle") %>
             </p>
             <ul class="list-unstyled contact-list margin-btm20">
-                <li><i class="ion-home"></i> 124,munnawali Jaipur,302012</li>
-                <li><i class="ion-ios7-telephone"></i> <strong>Phone:</strong> +91 1234567890</li>
-                <li><i class="ion-ios7-email"></i> <strong>Email:</strong> mail@domain.com</li>
-                <li><i class="ion-ios7-world"></i> <strong>Website:</strong> http://www.site.com</li>
+                <li><i class="ion-ios7-email"></i> <strong><%= t "footer.contact_us_email" %></strong><%= mail_to t("footer.contact_us_email_address") %></li>
+                <li><i class="ion-ios7-world"></i> <strong><%= t "footer.contact_us_website" %>:</strong><%= link_to t("footer.contact_us_website_url") %></li>
             </ul>
             <h3>Social Connect</h3>
             <ul class="list-unstyled list-inline social">
-                <li><a href="#"><i class="ion-social-facebook-outline" data-toggle="tooltip" data-placement="top" title="" data-original-title="Like On Facebook"></i></a></li>
-                <li><a href="#"><i class="ion-social-twitter-outline" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On twitter"></i></a></li>
-                <li><a href="#"><i class="ion-social-googleplus-outline" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On googleplus"></i></a></li>
-                <li><a href="#"><i class="ion-social-pinterest-outline" data-toggle="tooltip" data-placement="top" title="" data-original-title="pinterest"></i></a></li>
-                <li><a href="#"><i class="ion-social-skype-outline" data-toggle="tooltip" data-placement="top" title="" data-original-title="skype"></i></a></li>
+                <li><a href="http://www.facebook.com/heekarinow"><i class="ion-social-facebook-outline"  data-toggle="tooltip" data-placement="top" title="" data-original-title="Like On Facebook"></i></a></li>
+                <li><a href="http://twitter.com/heekarinow"><i class="ion-social-twitter-outline"  data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On twitter"></i></a></li>
 
             </ul>
         </div>

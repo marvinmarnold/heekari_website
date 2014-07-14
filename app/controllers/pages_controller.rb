@@ -15,9 +15,6 @@ class PagesController < ApplicationController
   def developer
   end
 
-  def save
-  end
-
   def shop
   end
 

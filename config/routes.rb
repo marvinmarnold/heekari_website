@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     get "os", to: "pages#os"
     get "developer", to: "pages#developer"
     get "team", to: "pages#team"
-    get "save", to: "pages#save"
+    get "save", to: "installation_details#new"
     get "shop", to: "pages#shop"
     get "connect", to: "pages#connect"
     get "legal", to: "pages#legal"

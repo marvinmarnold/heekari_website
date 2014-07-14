@@ -37,6 +37,12 @@ en:
                         h4. Sorry to disappoint, but Heekari wasn’t founded on ground breaking values or a killer mission statement. Put simply, we believe technology should simply work. Whether in the board room or bed room, Heekari is committed to making products that do what you expect.
 
                         h4. We’re so confident you will be satisfied, we offer a lifetime guarantee on all our products. But no matter how hard we try, we know we can always do better. Get in touch and let us know how you like your new Heekari Switch. If you don’t have one…
+        connect:
+            title: "Contact Us"
+            subtitle: "Send a message"
+            message_text: "We always love to hear your thoughts. Drop us a line and let us know what you like or what we can do better."
+            alternative_title: "Contact Info"
+            alternative_subtitle: "Don't want to send a message? There's a lot of ways to get in touch."
         developer:
             title: "Developers"
         index:
